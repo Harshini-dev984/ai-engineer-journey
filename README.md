@@ -1,1 +1,2 @@
-# ai-engineer-journey
+\## Week 1 — Math + Git refresher, done.
+
