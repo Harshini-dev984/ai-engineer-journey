@@ -12,10 +12,6 @@ except requests.exceptions.ConnectionError:
 
 try:
     data=response.json()
-    
-    resp=requests.post({
-       'base_code': 'euro'
-    })
-    print(resp.text)
+    print(response.text)
 except(KeyError, ValueError):
     print("Error: unexpected response format from API.")
